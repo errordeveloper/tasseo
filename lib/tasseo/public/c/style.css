@@ -93,7 +93,8 @@ div.title {
 }
 
 div.main {
-  margin: 30px 8% 0px;
+  width: 100%;
+  margin: 30px 0 0px;
   text-align: center;
 }
 
@@ -124,8 +125,8 @@ div.nav {
 .graph, .false {
   position: relative;
   float: left;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .false {
@@ -175,7 +176,6 @@ span.description:hover {
   position: absolute;
   font-size: 24px;
   text-align: left;
-  width: 150px;
   left: 20px;
   bottom: 20px;
   z-index: 200;
@@ -183,11 +183,12 @@ span.description:hover {
 
 .overlay-number {
   position: absolute;
-  font-size: 48px;
+  font-size: 7em;
   font-weight: bold;
   right: 20px;
-  bottom: 20px;
+  bottom: 24px;
   z-index: 200;
+  opacity: 0.5;
 }
 
 .overlay-name.night, .overlay-number.night {
